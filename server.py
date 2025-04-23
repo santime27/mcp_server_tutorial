@@ -16,4 +16,4 @@ def obtener_habilidades_pokemon(nombre_pokemon:str) -> list:
         return None
     
 if __name__ == "__main__":
-    app.run(transport="sse",port="9000")
+    app.run(transport="sse")
